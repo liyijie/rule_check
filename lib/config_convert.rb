@@ -41,7 +41,7 @@ class ConfigConvert
 				end
 			end
 		end
-		puts rule_config
+		# puts rule_config
 		rule_config
 	end
 
@@ -50,6 +50,6 @@ class ConfigConvert
 	end
 end
 
-ConfigConvert.excel_to_yml("./config/重点数据核查规则0806.xls", "config.yml")
+# ConfigConvert.excel_to_yml("./config/重点数据核查规则0806.xls", "config.yml")
 
 
